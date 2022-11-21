@@ -1,0 +1,8 @@
+CRITICAL - 2022-09-19 09:45:58 --> Undefined variable $nr1
+#0 C:\xampp\htdocs\avis\app\Models\ProjectModel.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 525)
+#1 C:\xampp\htdocs\avis\app\Controllers\Project.php(328): App\Models\ProjectModel->getAllPicPerform(Array, Array)
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('8', '1')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

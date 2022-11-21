@@ -1,0 +1,7 @@
+CRITICAL - 2022-10-10 11:28:46 --> Attempt to read property "level_id" on null
+#0 C:\xampp\htdocs\avis\app\Controllers\Rio.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Rio->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rio))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
